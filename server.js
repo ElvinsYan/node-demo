@@ -49,7 +49,7 @@ var server = http.createServer(function(request, response){
     response.statusCode = 200
     response.setHeader('Content-Type', 'text/javascript;charset=utf-8')
     response.write(`
-        alert("这是js执行的哈哈哈哈哈")
+        alert("这是js执行的哈哈哈")
     `)
     response.end()    
   }else{
